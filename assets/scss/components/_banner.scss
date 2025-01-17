@@ -1,0 +1,59 @@
+.main-banner {
+    position: relative; // Asegura que los elementos hijos se posicionen en relación a este contenedor
+    background-color: $primary-color;
+    color: $white-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 2rem;
+    
+    @include from(xl) {
+        height: calc(100vh - #{$header-height});
+        justify-content: center;
+        flex-direction: row;
+        gap: 4rem;
+        padding: 4rem;
+    }
+
+    &__image {
+        position: absolute; // Asegura que la imagen ocupe el fondo
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // Asegura que la imagen cubra el contenedor
+        z-index: 0; // Mantiene la imagen detrás de la superposición
+    }
+
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: $primary-color; // Cambia el color y la opacidad aquí
+        opacity: 0.5;
+        z-index: 1; // Superposición por encima de la imagen
+    }
+
+    &__content {
+        position: relative; // Asegura que el contenido esté por encima de la superposición
+        z-index: 2; // Mayor que la superposición
+        display: flex;
+        flex-direction: column;
+        align-items: center; // Centra el contenido
+        gap: 2rem; // Espacio entre los elementos
+
+        @include from(l) {
+            gap: 2rem; // Aumenta el espacio en pantallas más grandes
+        }
+    }
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__description {
+        text-align: center;
+    }
+}

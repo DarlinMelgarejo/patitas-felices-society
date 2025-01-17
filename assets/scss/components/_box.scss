@@ -1,0 +1,12 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    color: $black-color;
+    padding: 1.5rem;
+
+    &.border {
+        border: 1px solid $border-color;
+        border-radius: 7.5px;
+    }
+}

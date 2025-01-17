@@ -1,0 +1,108 @@
+.btn {
+    width: fit-content;
+    display: inline-block;
+    padding: .75rem 2rem;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.25;
+    background-color: $black-color;
+    color: $white-color;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: none;
+    border-radius: 0.375rem;
+    transform: scale(1);
+    transition: color .15s ease-in-out, background-color .3s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, transform .3s ease-in-out;
+
+    @include from(l) {
+        font-size: 1rem;
+    }
+
+    &:hover {
+        color: $white-color;
+        background-color: #33373b
+    }
+
+    &.btn-white-secondary {
+        color: $secondary-color;
+        background-color: $white-color;
+        border: none;
+
+
+        &:hover {
+            color: $white-color;
+            background-color: $secondary-color;
+        }
+    }
+    
+    &.btn-white-quaternary {
+        color: $quaternary-color;
+        background-color: $white-color;
+        border: none;
+
+
+        &:hover {
+            color: $white-color;
+            background-color: $quaternary-color;
+        }
+    }
+    
+    &.btn-primary {
+        color: $primary-color;
+        background-color: $white-color;
+        border: 2px solid $primary-color;
+
+
+        &:hover {
+            color: $white-color;
+            background-color: $primary-color;
+            transform: scale(1.1);
+        }
+    }
+
+    &.btn-quaternary {
+        color: $quaternary-color;
+        background-color: $white-color;
+        border: 2px solid $quaternary-color;
+
+
+        &:hover {
+            color: $white-color;
+            background-color: $quaternary-color;
+            transform: scale(1.1);
+        }
+    }
+
+    &.btn-red {
+        color: $white-color;
+        background-color: $red-color;
+        border: 2px solid $white-color;
+        
+        
+        &:hover {
+            color: $red-color;
+            background-color: $white-color;
+            border: 2px solid $red-color;
+            transform: scale(1.1);
+        }
+    }
+
+    &.btn-green {
+        color: $white-color;
+        background-color: $green-color;
+        border: 2px solid $white-color;
+        
+        
+        &:hover {
+            color: $green-color;
+            background-color: $white-color;
+            border: 2px solid $green-color;
+            transform: scale(1.1);
+        }
+    }
+}

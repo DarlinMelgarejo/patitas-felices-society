@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Patitas Felices es un grupo de jóvenes que ayuda a animales en situación de calle. Nuestro objetivo es conseguirles un hogar, cuidar de su salud y luchar contra el maltrato animal.">
+    <meta name="keywords" content="adopción de animales, albergue para mascotas, rescate animal, ayudar animales callejeros, maltrato animal, cuidados para mascotas, Patitas Felices">
+    <meta name="robots" content="index, follow">
+    <title>Patitas Felices | Ayuda a los animales</title>
+    <!-- Open Graph para redes sociales (Facebook, etc.) -->
+    <meta property="og:title" content="Patitas Felices | Ayuda a los animales">
+    <meta property="og:description" content="Patitas Felices es un grupo de jóvenes dedicados al rescate y cuidado de animales callejeros. Únete a nuestra causa y forma parte de nuestros proyectos para salvar vidas.">
+    <meta property="og:image" content="https://patitasfelicessociety.netlify.app/assets/images/logo-completo.jpeg">
+    <meta property="og:url" content="https://patitasfelicessociety.netlify.app">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Patitas Felices | Ayuda a los animales">
+    <meta name="twitter:description" content="Patitas Felices es un grupo de jóvenes dedicados al rescate y cuidado de animales callejeros. Únete a nuestra causa y forma parte de nuestros proyectos para salvar vidas.">
+    <meta name="twitter:image" content="https://patitasfelicessociety.netlify.app/assets/images/logo-completo.jpeg">
+
+    <!-- URL canónica (evitar contenido duplicado) -->
+    <link rel="canonical" href="https://patitasfelicessociety.netlify.app">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__container">
+            <a  href="./index.html" class="main-header__logo">
+                <img src="./assets/images/favicon.png" alt="Logo de Patitas Felices" width="50px" height="50px">
+                <h1 class="main-header__title">PATITAS FELICES</h1>
+            </a>
+            <nav class="main-header__menu">
+                <a class="main-header__link" href="./index.html">Inicio</a>
+                <a class="main-header__link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                <a class="main-header__link" href="./caminatas.html">Caminatas</a>
+                <a class="main-header__link" href="./apoyanos.html">Apóyanos</a>
+            </nav>
+            <div class="main-header__menu-toggle" id="menu-toggle"></div>
+        </div>
+        <nav class="main-header__hidden-menu" id="hidden-menu">
+            <a class="main-header__link" href="./index.html">INICIO</a>
+            <a class="main-header__link" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            <a class="main-header__link" href="./caminatas.html">CAMINATAS</a>
+            <a class="main-header__link" href="./apoyanos.html">APÓYANOS</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main-banner">
+            <img 
+                src="./assets/images/banner-s.jpg"
+                srcset="./assets/images/banner-l.jpg 600w, ./assets/images/banner-xxl.jpg 1200w"
+                sizes="(max-width: 600px) 100vw, 600px" 
+                alt="Imagen del banner" 
+                class="main-banner__image" 
+            />
+            <div class="main-banner__overlay"></div>
+            <div class="main-banner__content">
+                <h2 class="main-banner__title">Bienvenidos a Patitas Felices</h2>
+                <p class="main-banner__description">Dando amor y esperanza a cada patita abandonada</p>
+                <a class="btn btn-white-secondary" href="./caminatas.html">¡Conoce Nuestro Trabajo!</a>
+            </div>
+        </div>
+        <div class="impact">
+            <h2 class="impact__title">Nuestro Impacto</h2>
+            <div class="impact__content">
+                <div class="impact__card">
+                    <div class="impact__card-content">
+                        <img src="./assets/icons/heart.svg" alt="Icono de corazón" class="impact__card-icon">
+                        <h3 class="impact__card-number">20+</h3>
+                        <span class="impact__card-description">Mascotas Rescatadas</span>
+                    </div>
+                </div>
+                <div class="impact__card">
+                    <div class="impact__card-content">
+                        <img src="./assets/icons/fingerprint.svg" alt="Icono de huella" class="impact__card-icon">
+                        <h3 class="impact__card-number">5+</h3>
+                        <span class="impact__card-description">Adopciones Exitosas</span>
+                    </div>
+                </div>
+                <div class="impact__card">
+                    <div class="impact__card-content">
+                        <img src="./assets/icons/calendar.svg" alt="Icono de calendario" class="impact__card-icon">
+                        <h3 class="impact__card-number">30+</h3>
+                        <span class="impact__card-description">Voluntarios Activos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services">
+            <h2 class="services__title">Nuestros Servicios</h2>
+            <div class="services__content">
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/fingerprint.svg" alt="Icono de Huella" class="services__card-icon">
+                        <h3 class="services__card-title">Rescate</h3>
+                        <p class="services__card-description">Rescatamos mascotas en situación de calle y les brindamos atención inmediata.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/activity.svg" alt="Icono de Huella" class="services__card-icon">
+                        <h3 class="services__card-title">Rehabilitación</h3>
+                        <p class="services__card-description">Proporcionamos cuidado médico y emocional para preparar a las mascotas para su nuevo hogar.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/heart.svg" alt="Icono de Corazón" class="services__card-icon">
+                        <h3 class="services__card-title">Adopción</h3>
+                        <p class="services__card-description">Conectamos mascotas rehabilitadas con familias amorosas a través de nuestro proceso de adopción.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/calendar.svg" alt="Icono de Calendario" class="services__card-icon">
+                        <h3 class="services__card-title">Caminatas</h3>
+                        <p class="services__card-description">Organizamos caminatas semanales para socializar y ejercitar a nuestras mascotas rescatadas.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/gift.svg" alt="Icono de Regalo" class="services__card-icon">
+                        <h3 class="services__card-title">Donaciones</h3>
+                        <p class="services__card-description">Aceptamos donaciones para mantener nuestras operaciones y mejorar la vida de las mascotas.</p>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-content">
+                        <img src="./assets/icons/users.svg" alt="Icono de Personas" class="services__card-icon">
+                        <h3 class="services__card-title">Voluntariado</h3>
+                        <p class="services__card-description">Ofrecemos oportunidades para que la comunidad se involucre directamente en nuestra misión.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cta-section">
+            <h2 class="cta-section__title">¿Listo para hacer la diferencia?</h2>
+            <p class="cta-section__description">Cada pequeña acción cuenta. Únete a nosotros en nuestra misión de dar amor y hogar a cada patita abandonada.</p>
+            <a class="btn btn-quaternary" href="./caminatas.html">¡Conoce Nuestro Trabajo!</a>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__content">
+            <div class="main-footer__section">
+                <p class="main-footer__title">ENLACES IMPORTANTES</p>
+                <nav class="main-footer__menu" id="hidden-menu">
+                    <a class="main-footer__link" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+                    <a class="main-footer__link" href="./caminatas.html">CAMINATAS</a>
+                    <a class="main-footer__link" href="./apoyanos.html">APÓYANOS</a>
+                </nav>
+            </div>
+            <div class="main-footer__section">
+                <p class="main-footer__title">SIGUENOS</p>
+                <div class="main-footer__image">
+                    <img src="./assets/images/logo.png" alt="Logo de Patitas Felices">
+                </div>
+                <div class="main-footer__social">
+                    <a class="main-footer__social-link" target="_blank" href="https://www.instagram.com/patitas.felices.soc"
+                        title="Ir a Instagram">
+                        <img class="main-footer__social-icon" src="./assets/icons/instagram-icon.svg" alt="Logo de Instagram" width="32px" height="32px">
+                    </a>
+                    <a class="main-footer__social" target="_blank" href="https://www.tiktok.com/@patitas.felices.soc"
+                        title="Ir a TikTok">
+                        <img class="main-footer__social-icon" src="./assets/icons/tiktok-icon.svg" alt="Logo de TikTok" width="32px" height="32px">
+                    </a>
+                    <a class="main-footer__social" target="_blank" href="https://chat.whatsapp.com/D8x7rfGm3CO7FrvBtTtrH0"
+                        title="Ir al grupo de Whatsapp">
+                        <img class="main-footer__social-icon" src="./assets/icons/whatsapp-icon.svg" alt="Logo de Instagram" width="32px" height="32px">
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__section">
+                <p class="main-footer__title">¡ÚNETE A NOSOTROS!</p>
+                <p class="main-footer__description">Conviértete en voluntario y ayuda a cambiar la vida de los animales necesitados.</p>
+                <a class="btn btn-white-secondary" href="https://wa.me/51971916515" target="_blank">CONTACTANOS</a>
+            </div>
+        </div>
+        <div class="main-footer__copyright">
+            © 2025 Patitas Felices. Todos los derechos reservados.
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

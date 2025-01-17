@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Patitas Felices es un grupo de jóvenes que ayuda a animales en situación de calle. Nuestro objetivo es conseguirles un hogar, cuidar de su salud y luchar contra el maltrato animal.">
+    <meta name="keywords" content="adopción de animales, albergue para mascotas, rescate animal, ayudar animales callejeros, maltrato animal, cuidados para mascotas, Patitas Felices">
+    <meta name="robots" content="index, follow">
+    <title>Caminatas - Patitas Felices</title>
+    <!-- Open Graph para redes sociales (Facebook, etc.) -->
+    <meta property="og:title" content="Patitas Felices | Ayuda a los animales">
+    <meta property="og:description" content="Patitas Felices es un grupo de jóvenes dedicados al rescate y cuidado de animales callejeros. Únete a nuestra causa y forma parte de nuestros proyectos para salvar vidas.">
+    <meta property="og:image" content="https://patitasfelicessociety.netlify.app/assets/images/logo-completo.jpeg">
+    <meta property="og:url" content="https://patitasfelicessociety.netlify.app">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Patitas Felices | Ayuda a los animales">
+    <meta name="twitter:description" content="Patitas Felices es un grupo de jóvenes dedicados al rescate y cuidado de animales callejeros. Únete a nuestra causa y forma parte de nuestros proyectos para salvar vidas.">
+    <meta name="twitter:image" content="https://patitasfelicessociety.netlify.app/assets/images/logo-completo.jpeg">
+
+    <!-- URL canónica (evitar contenido duplicado) -->
+    <link rel="canonical" href="https://patitasfelicessociety.netlify.app">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header__container">
+            <a  href="./index.html" class="main-header__logo">
+                <img src="./assets/images/favicon.png" alt="Logo de Patitas Felices" width="50px" height="50px">
+                <h1 class="main-header__title">PATITAS FELICES</h1>
+            </a>
+            <nav class="main-header__menu">
+                <a class="main-header__link" href="./index.html">Inicio</a>
+                <a class="main-header__link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                <a class="main-header__link" href="./caminatas.html">Caminatas</a>
+                <a class="main-header__link" href="./apoyanos.html">Apóyanos</a>
+            </nav>
+            <div class="main-header__menu-toggle" id="menu-toggle"></div>
+        </div>
+        <nav class="main-header__hidden-menu" id="hidden-menu">
+            <a class="main-header__link" href="./index.html">INICIO</a>
+            <a class="main-header__link" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+            <a class="main-header__link" href="./caminatas.html">CAMINATAS</a>
+            <a class="main-header__link" href="./apoyanos.html">APÓYANOS</a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner-simple">
+            <div class="banner-simple__content">
+                <h2 class="banner-simple__title">Caminatas con Propósito</h2>
+                <p class="banner-simple__description">En nuestras caminatas Alimentamos a animalitos que no tienen hogar. Alimentar a los animalitos no solo llena sus estómagos, sino que también llena sus corazones de amor y esperanza. ¡Únete a nosotros para hacer una diferencia!</p>
+            </div>
+        </div>
+        <div class="walks-work">
+            <h2 class="walks-work__title">Cómo Funcionan Nuestras Caminatas</h2>
+            <div class="walks-work__content">
+                <div class="walks-work__card">
+                    <div class="walks-work__card-content">
+                        <h3 class="walks-work__card-title">Propósito</h3>
+                        <ul class="walks-work__card-list">
+                            <li class="walks-work__card-item">Buscamos animales en situación de calle</li>
+                            <li class="walks-work__card-item">Les proporcionamos alimento y agua</li>
+                            <li class="walks-work__card-item">Les brindamos cariño y atención</li>
+                            <li class="walks-work__card-item">Evaluamos su estado de salud</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="walks-work__card">
+                    <div class="walks-work__card-content">
+                        <h3 class="walks-work__card-title">Participación</h3>
+                        <ul class="walks-work__card-list">
+                            <li class="walks-work__card-item">Nos reunimos en un punto acordado</li>
+                            <li class="walks-work__card-item">Recorremos juntos las calles designadas</li>
+                            <li class="walks-work__card-item">Trabajamos en equipo para alimentar y cuidar a los animales</li>
+                            <li class="walks-work__card-item">Compartimos experiencias y aprendizajes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <h2 class="gallery__title">Galería de Caminatas</h2>
+            <div class="gallery__content">
+                <div class="gallery__image"><img src="./assets/images/galeria/1.jpeg" alt="Foto 1 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/2.jpeg" alt="Foto 2 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/3.jpeg" alt="Foto 3 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/4.jpeg" alt="Foto 4 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/5.jpeg" alt="Foto 5 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/6.jpeg" alt="Foto 6 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/7.jpeg" alt="Foto 7 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/8.jpeg" alt="Foto 8 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/9.jpeg" alt="Foto 9 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/10.jpeg" alt="Foto 10 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/11.jpeg" alt="Foto 11 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+                <div class="gallery__image"><img src="./assets/images/galeria/12.jpeg" alt="Foto 12 de la galeria" onclick="mostrarImagenEnModal(this)"></div>
+            </div>
+            <div class="gallery__modal" id="gallery-modal">
+                <span class="gallery__modal-close" onclick="cerrarImagenEnModal()">&times;</span>
+                <img class="gallery__modal-content" id="gallery-modal-content">
+            </div>
+        </div>
+        <div class="walks-join">
+            <h2 class="walks-join__title">Cómo Unirte</h2>
+            <div class="walks-join__content">
+                <div class="walks-join__card">
+                    <div class="walks-join__card-content">
+                        <img src="./assets/icons/message-circle.svg" alt="Icono de Mensaje" class="walks-join__card-icon">
+                        <h3 class="walks-join__card-title">WhatsApp</h3>
+                        <span class="walks-join__card-text">Escríbenos por WhatsApp para unirte al grupo de coordinación.</span>
+                        <a class="btn btn-green" href="https://wa.me/51971916515" target="_blank" title="Ir a WhatsApp">Unirme por WhatsApp</a>
+                    </div>
+                </div>
+                <div class="walks-join__card">
+                    <div class="walks-join__card-content">
+                        <img src="./assets/icons/instagram.svg" alt="Icono de Instagram" class="walks-join__card-icon">
+                        <h3 class="walks-join__card-title">Instagram</h3>
+                        <span class="walks-join__card-text">Contáctanos por Instagram para obtener más información.</span>
+                        <a class="btn btn-red" target="_blank" href="https://www.instagram.com/patitas.felices.soc" title="Ir a Instagram">Seguir en Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="walks-coordinate">
+            <h2 class="walks-coordinate__title">Proceso de Coordinación</h2>
+            <ol class="walks-coordinate__description">
+                <li>Una vez que te unas al grupo de WhatsApp, preséntate brevemente.</li>
+                <li>Los coordinadores compartirán información sobre la próxima caminata.</li>
+                <li>Se acordará un punto de encuentro y hora para la caminata.</li>
+                <li>El día de la caminata, reúnete con el grupo en el lugar y hora acordados.</li>
+                <li>Sigue las instrucciones de los coordinadores durante la actividad.</li>
+            </ol>
+        </div>
+        <div class="walks-can-bring">
+            <h2 class="walks-can-bring__title">Lo Que Puedes Traer</h2>
+            <div class="walks-can-bring__card">
+                <div class="walks-can-bring__card-content">
+                    <p class="walks-can-bring__card-text">Aunque no es obligatorio, si deseas puedes traer lo siguiente para ayudar durante la caminata:</p>
+                    <ul class="walks-can-bring__card-list">
+                        <li class="walks-can-bring__card-item">Comida para perros o gatos</li>
+                        <li class="walks-can-bring__card-item">Agua fresca</li>
+                        <li class="walks-can-bring__card-item">Recipientes desechables para servir comida y agua</li>
+                        <li class="walks-can-bring__card-item">Toallas o paños para limpiar a los animales si es necesario</li>
+                        <li class="walks-can-bring__card-item">Correas extra por si encontramos animales que necesiten ser rescatados</li>
+                    </ul>
+                    <p class="walks-can-bring__card-text">Recuerda que lo más importante es tu presencia y disposición para ayudar.</p>
+                </div>
+            </div>
+        </div>
+        <div class="cta-section cta-section-primary">
+            <h2 class="cta-section__title">¿Listo para hacer la diferencia?</h2>
+            <p class="cta-section__description">Cada paso que das con nosotros es un paso hacia un futuro mejor para los animales de la calle. ¡Únete a nuestras caminatas y sé parte del cambio!</p>
+            <a class="btn btn-white-secondary" href="https://wa.me/51971916515" target="_blank">Unirme Ahora</a>
+        </div>
+    </main>
+    <footer class="main-footer">
+        <div class="main-footer__content">
+            <div class="main-footer__section">
+                <p class="main-footer__title">ENLACES IMPORTANTES</p>
+                <nav class="main-footer__menu" id="hidden-menu">
+                    <a class="main-footer__link" href="./sobre-nosotros.html">SOBRE NOSOTROS</a>
+                    <a class="main-footer__link" href="./caminatas.html">CAMINATAS</a>
+                    <a class="main-footer__link" href="./apoyanos.html">APÓYANOS</a>
+                </nav>
+            </div>
+            <div class="main-footer__section">
+                <p class="main-footer__title">SIGUENOS</p>
+                <div class="main-footer__image">
+                    <img src="./assets/images/logo.png" alt="Logo de Patitas Felices">
+                </div>
+                <div class="main-footer__social">
+                    <a class="main-footer__social-link" target="_blank" href="https://www.instagram.com/patitas.felices.soc"
+                        title="Ir a Instagram">
+                        <img class="main-footer__social-icon" src="./assets/icons/instagram-icon.svg" alt="Logo de Instagram" width="32px" height="32px">
+                    </a>
+                    <a class="main-footer__social" target="_blank" href="https://www.tiktok.com/@patitas.felices.soc"
+                        title="Ir a TikTok">
+                        <img class="main-footer__social-icon" src="./assets/icons/tiktok-icon.svg" alt="Logo de TikTok" width="32px" height="32px">
+                    </a>
+                    <a class="main-footer__social" target="_blank" href="https://chat.whatsapp.com/D8x7rfGm3CO7FrvBtTtrH0"
+                        title="Ir al grupo de Whatsapp">
+                        <img class="main-footer__social-icon" src="./assets/icons/whatsapp-icon.svg" alt="Logo de Instagram" width="32px" height="32px">
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__section">
+                <p class="main-footer__title">¡ÚNETE A NOSOTROS!</p>
+                <p class="main-footer__description">Conviértete en voluntario y ayuda a cambiar la vida de los animales necesitados.</p>
+                <a class="btn btn-white-secondary" href="https://wa.me/51971916515" target="_blank">CONTACTANOS</a>
+            </div>
+        </div>
+        <div class="main-footer__copyright">
+            © 2025 Patitas Felices. Todos los derechos reservados.
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

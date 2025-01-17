@@ -1,0 +1,57 @@
+.card-mascota {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 800px;
+    width: 300px;
+    padding: 1.5em;
+    border: 1px solid $border-color;
+    border-radius: 10px;
+    margin: 0 auto;
+
+    @include from(s) {
+        width: 350px;
+    }
+
+    @include from(m) {
+        width: 350px;
+    }
+
+    @include from(l) {
+        width: 300px;
+    }
+
+    @include from(xl) {
+        width: 350px;
+    }
+
+    &__image {
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+        height: 150px;
+
+        @include from(s) {
+            height: 150px;
+        }
+
+        @include from(m) {
+            height: 175px;
+        }
+
+        @include from(l) {
+            height: 150px;
+        }
+        
+        @include from(xl) {
+            height: 175px;
+        }
+    }
+
+    &__info {
+        color: $black-color;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+    }
+}

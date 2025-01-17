@@ -1,0 +1,60 @@
+//Reseteo general
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+//Estilos generales
+body {
+    display: grid;
+    min-height: 100dvb;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+    font-size: var(--body-font-size);
+    background-color: $white-color;
+    color: $text-color;
+    font-family: sans-serif;
+}
+
+main, footer {
+    display: grid;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+h2 {
+    font-size: var(--h2-font-size);
+}
+
+h3 {
+    font-size: var(--h3-font-size);
+}
+
+h4 {
+    font-size: var(--h4-font-size);
+}
+
+h5 {
+    font-size: var(--h5-font-size);
+}
+
+h6 {
+    font-size: var(--h6-font-size);
+}
