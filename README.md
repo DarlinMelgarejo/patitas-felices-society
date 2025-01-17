@@ -48,7 +48,7 @@ Para visualizar o modificar este proyecto, necesitas un entorno con un navegador
 1. **Clonación del repositorio**:
    Si tienes Git instalado, puedes clonar el repositorio con el siguiente comando:
    ```bash
-   git clone https://github.com/TU-USUARIO/patitas-felices.git
+   git clone https://github.com/DarlinMelgarejo/patitas-felices-society.git
 
 2. **Abrir el Proyecto**:
    Una vez que hayas clonado el repositorio, puedes abrir los archivos del proyecto en cualquier editor de texto como Visual Studio Code, Sublime Text, o cualquier otro editor de tu preferencia.
